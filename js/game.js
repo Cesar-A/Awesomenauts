@@ -13,6 +13,7 @@ var game = {
 	"onload" : function () {
 	// Initialize the video.
 	if (!me.video.init("screen",  me.video.CANVAS, 1067, 600, true, '1.0')) {
+            //this adjust the size of the screen
 		alert("Your browser does not support HTML5 canvas.");
 		return;
 	}
