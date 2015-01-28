@@ -11,7 +11,7 @@ game.PlayerEntity = me.Entity.extend({
               }
       }]);  
     },
-    
+    //this adds the player into the map
     update: function(){
         
     }
