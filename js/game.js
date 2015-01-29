@@ -4,8 +4,8 @@ var game = {
     data: {
         // score
         score: 0
-   },
-    // Run on page load.
+    },
+        // Run on page load.
     "onload": function() {
         // Initialize the video.
         if (!me.video.init("screen", me.video.CANVAS, 1067, 600, true, '1.0')) {
@@ -33,7 +33,7 @@ var game = {
         // Initialize melonJS and display a loading screen.
         me.state.change(me.state.LOADING);
     },
-    // Run on game resources loaded.
+        // Run on game resources loaded.
     "loaded": function() {
         me.pool.register("player", game.PlayerEntity, true);
         me.state.set(me.state.MENU, new game.TitleScreen());
