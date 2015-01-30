@@ -22,6 +22,6 @@ game.PlayerEntity = me.Entity.extend({
         }
         this.body.update(delta);
         return true;
-    }
+    }//this moves the player when the the right arrow key is pressed 
     
 });
